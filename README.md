@@ -15,7 +15,7 @@ npm install --save css-viewport-units
 ```javascript
 var cssViewportUnits = require('css-viewport-units');
 
-cssViewportUnits();  // => true
+cssViewportUnits();  // => ['vh', 'vw', 'vmin', 'vmax' ]
 ```
 
 ## License

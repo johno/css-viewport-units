@@ -3,7 +3,7 @@ var cssViewportUnits = require('..');
 
 describe('css-viewport-units', function() {
 
-  it('should do something awesome', function() {
-    assert.equal(cssViewportUnits(), true);
+  it('should return an array of the correct units', function() {
+    assert.deepEqual(cssViewportUnits(), ['vh', 'vw', 'vmin', 'vmax' ]);
   });
 });

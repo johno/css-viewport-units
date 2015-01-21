@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = function cssViewportUnits(options) {
-  options = options || {};
-
-  return true;
+module.exports = function cssViewportUnits() {
+  return ['vh', 'vw', 'vmin', 'vmax' ];
 }
